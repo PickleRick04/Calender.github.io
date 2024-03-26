@@ -44,7 +44,6 @@ prevNextIcon.forEach(icon => {
     });
 });
 
-// Correct implementation for keyboard navigation
 document.addEventListener('keydown', function(e) {
     if (e.key == '37') { // Left arrow key
         currMonth = currMonth - 1;
