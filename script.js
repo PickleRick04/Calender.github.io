@@ -50,13 +50,13 @@ prevNextIcon.forEach(icon => {
 });
 
 document.addEventListener('keydown', function(e) {
-    if (e.key == '37') { // Left arrow key
+    if (e.key === 'ArrowLeft') { // Linke Pfeiltaste
         currMonth = currMonth - 1;
         if (currMonth < 0) {
             currMonth = 11;
             currYear--;
         }
-    } else if (e.key == '39') { // Right arrow key
+    } else if (e.key === 'ArrowRight') { // Rechte Pfeiltaste
         currMonth = currMonth + 1;
         if (currMonth > 11) {
             currMonth = 0;
@@ -66,4 +66,4 @@ document.addEventListener('keydown', function(e) {
     renderCalendar();
 });
 
-renderCalendar(); // Initial call to render the calendar
+
