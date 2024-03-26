@@ -36,7 +36,12 @@ const renderCalendar = () => {
 // Event listeners for prev and next icons
 prevNextIcon.forEach(icon => {
     icon.addEventListener("click", () => {
-        currMonth = icon.id === "prev" ? currMonth - 1 : currMonth + 1;
+        if( icon.id == "prev"){
+            currMonth -= 1;
+        }
+        else if( icon.id == "next"){
+            currMonth += 1;
+        }
         if (currMonth < 0 || currMonth > 11) {
             currMonth = (currMonth + 12) % 12; // Adjust month correctly and wrap around
         }
