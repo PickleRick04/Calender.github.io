@@ -13,3 +13,11 @@ body, h1, h2, p, iframe {
 body, h1, h2, p, iframe {
   margin-bottom: 10px;
 }
+.spotify-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.spotify-container iframe {
+  width: 25vw; /* 25% of the viewport width */
+}
