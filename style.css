@@ -1,6 +1,8 @@
 *{
   font-family: 'Poppins', sans-serif;
+  background-color: antiquewhite;
+  text-align: center;
 }
 body, h1, h2, p, iframe {
-  margin-bottom: 20px; /* Adjust the 20px to increase or decrease the space */
+  margin-bottom: 10px; /* Adjust the 20px to increase or decrease the space */
 }
