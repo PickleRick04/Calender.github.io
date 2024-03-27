@@ -15,6 +15,17 @@ body, h1, h2, p, iframe {
   border: none; /* This removes the border */
   margin: 10px; /* Add some margin between iframes */
 }
+.maerz27 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  grid-template-rows: repeat(2, auto); /* 2 rows with auto height */
+  gap: 10px; /* Gap between grid items */
+}
+
+.maerz27-item{
+  border: 1px solid #000; /* Border around each grid item */
+  padding: 20px; /* Padding inside each grid item */
+}
 
 /**
 .spotify-container {
