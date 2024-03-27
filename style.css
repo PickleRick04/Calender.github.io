@@ -1,17 +1,3 @@
 *{
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-}
-body{
-  display: flex;
-  align-items: center;
-  padding: 0 10px;
-  justify-content: center;
-  min-height: 100vh;
-  background: #eee9d5;
-}
-h1, h2, p {
-  margin-top: 1em; /* Abstand oben */
-  margin-bottom: 1em; /* Abstand unten */
-  line-height: 1.6; /* Adds line spacing */
 }
