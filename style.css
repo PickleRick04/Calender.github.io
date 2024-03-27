@@ -6,20 +6,9 @@
 body, h1, h2, p, iframe {
   margin-bottom: 10px;
 }
-.container {
-  text-align: center; /* Zentriert den Text horizontal */
-}
 
-.content {
-  margin: 0 auto; /* Zentriert das Element horizontal */
-}
-
-/* Füge zusätzliche Stile hinzu, wenn nötig */
-body, h1, h2, p, iframe {
-  margin-bottom: 10px;
-}
 .spotify-container {
-  display: grid;
+  display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
