@@ -1,8 +1,15 @@
-*{
-  font-family: 'Poppins', sans-serif;
-  background-color: rgb(179, 218, 226);
-  text-align: center;
+body, h1, h2, p, iframe {
+  margin-bottom: 10px;
 }
+.container {
+  text-align: center; /* Zentriert den Text horizontal */
+}
+
+.content {
+  margin: 0 auto; /* Zentriert das Element horizontal */
+}
+
+/* Füge zusätzliche Stile hinzu, wenn nötig */
 body, h1, h2, p, iframe {
   margin-bottom: 10px;
 }
