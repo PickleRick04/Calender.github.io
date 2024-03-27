@@ -6,9 +6,6 @@
 body, h1, h2, p, iframe {
   margin-bottom: 10px;
 }
-.spotify-container {
-  display: none; /* Hide the container */
-}
 /**
 .spotify-container {
   display:grid;
