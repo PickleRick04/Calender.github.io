@@ -13,3 +13,7 @@ body{
   min-height: 100vh;
   background: #eee9d5;
 }
+h1, h2, p {
+  margin-top: 1em; /* Abstand oben */
+  margin-bottom: 1em; /* Abstand unten */
+}
