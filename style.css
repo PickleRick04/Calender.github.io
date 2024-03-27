@@ -6,3 +6,6 @@
 body, h1, h2, p, iframe {
   margin-bottom: 10px; /* Adjust the 20px to increase or decrease the space */
 }
+.date{
+  text-align: left;
+}
