@@ -10,12 +10,13 @@ body, h1, h2, p, iframe {
   margin-bottom: 3px !important;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Horizontal centering */
-  margin-left: auto; /* Horizontal centering */
-  margin-right: auto; /* Horizontal centering */
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .spotify-container iframe {
-  border: none; /* This removes the border */
-  margin: 10px; /* Add some margin between iframes */
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
