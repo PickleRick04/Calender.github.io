@@ -7,6 +7,7 @@ body, h1, h2, p, iframe {
   margin-bottom: 10px;
 }
 .spotify-container {
+  margin-bottom: 3px !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Horizontal centering */
